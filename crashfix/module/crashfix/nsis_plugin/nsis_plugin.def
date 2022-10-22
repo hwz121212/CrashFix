@@ -1,6 +1,0 @@
-LIBRARY	"nsis_plugin"
-
-EXPORTS
-	DllMain  
-	detect_httpd
-	open_folder_dialog

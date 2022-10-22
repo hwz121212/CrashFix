@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nsis_plugin", "module\crashfix\nsis_plugin\nsis_plugin.vcxproj", "{B8326A7C-7F9D-4198-9AEB-794827E17018}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nsis_plugin", "thirdparty\crashfix\nsis_plugin\nsis_plugin.vcxproj", "{B8326A7C-7F9D-4198-9AEB-794827E17018}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daemon", "module\crashfix\daemon\daemon.vcxproj", "{70B5BE55-7EBA-4B3A-81E9-CE41EA4E952B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daemon", "thirdparty\crashfix\daemon\daemon.vcxproj", "{70B5BE55-7EBA-4B3A-81E9-CE41EA4E952B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{4CC86504-8DDD-3853-A402-F1E45D1924CB} = {4CC86504-8DDD-3853-A402-F1E45D1924CB}
 		{98370A1A-2305-3AE1-8D6B-0841290DE59E} = {98370A1A-2305-3AE1-8D6B-0841290DE59E}
@@ -13,21 +13,21 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daemon", "module\crashfix\d
 		{42CF0266-F5EF-4A0B-9759-D733FC17539B} = {42CF0266-F5EF-4A0B-9759-D733FC17539B}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daemon_tests", "module\crashfix\daemon_tests\daemon_tests.vcxproj", "{EBE1DD91-5BBE-4AAC-A220-CD0FE1190985}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daemon_tests", "thirdparty\crashfix\daemon_tests\daemon_tests.vcxproj", "{EBE1DD91-5BBE-4AAC-A220-CD0FE1190985}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dumper", "module\crashfix\dumper\dumper.vcxproj", "{E14D0A1A-CD02-4ABD-9493-8AD3103D3B78}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dumper", "thirdparty\crashfix\dumper\dumper.vcxproj", "{E14D0A1A-CD02-4ABD-9493-8AD3103D3B78}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdumper", "module\crashfix\libdumper\libdumper.vcxproj", "{D1194826-8737-485C-BB8C-E0FB2EC95365}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdumper", "thirdparty\crashfix\libdumper\libdumper.vcxproj", "{D1194826-8737-485C-BB8C-E0FB2EC95365}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdumper_tests", "module\crashfix\libdumper_tests\libdumper_tests.vcxproj", "{6787A14C-2432-439E-BF8F-654509CFA94B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdumper_tests", "thirdparty\crashfix\libdumper_tests\libdumper_tests.vcxproj", "{6787A14C-2432-439E-BF8F-654509CFA94B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtest", "module\crashfix\libtest\libtest.vcxproj", "{1F77CF65-8E2A-46CC-9DF3-0D5069AA2520}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtest", "thirdparty\crashfix\libtest\libtest.vcxproj", "{1F77CF65-8E2A-46CC-9DF3-0D5069AA2520}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uploader", "module\crashfix\uploader\uploader.vcxproj", "{DA6928DD-8865-4A3F-8774-A9CDA983B6C0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uploader", "thirdparty\crashfix\uploader\uploader.vcxproj", "{DA6928DD-8865-4A3F-8774-A9CDA983B6C0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uploader_gui", "module\crashfix\uploader_gui\uploader_gui.vcxproj", "{6F131A52-7089-4E89-A517-8EBEFEABA6C3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uploader_gui", "thirdparty\crashfix\uploader_gui\uploader_gui.vcxproj", "{6F131A52-7089-4E89-A517-8EBEFEABA6C3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_module_crashfix", "1_module_crashfix", "{12304F8E-E267-4CCF-AA27-ED5C1F494D39}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_thirdparty_crashfix", "1_thirdparty_crashfix", "{12304F8E-E267-4CCF-AA27-ED5C1F494D39}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty_base", "0_thirdparty_base", "{4BC56437-E2A5-4054-AD71-196FF630AAEE}"
 EndProject

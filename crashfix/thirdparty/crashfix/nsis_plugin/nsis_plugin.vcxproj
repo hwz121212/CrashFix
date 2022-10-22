@@ -67,7 +67,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\libdumper;$(SolutionDir)include\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5;$(SolutionDir)thirdparty\minizip-1.1;$(SolutionDir)thirdparty\zlib-1.2.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5;$(SolutionDir)thirdparty\minizip-1.1;$(SolutionDir)thirdparty\zlib-1.2.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -83,7 +83,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\libdumper;$(SolutionDir)include\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5;$(SolutionDir)thirdparty\minizip-1.1;$(SolutionDir)thirdparty\zlib-1.2.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5;$(SolutionDir)thirdparty\minizip-1.1;$(SolutionDir)thirdparty\zlib-1.2.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

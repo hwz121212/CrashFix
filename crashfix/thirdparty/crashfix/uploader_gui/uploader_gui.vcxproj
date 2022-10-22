@@ -70,7 +70,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.6.1\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -81,7 +81,7 @@
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <Culture>0x0409</Culture>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.6.1\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>libminizip.lib;libtinyxml.lib;libzlib.lib;libdumper.lib;ws2_32.lib;Psapi.lib;WinInet.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -102,7 +102,7 @@
       <ProxyFileName>uploader_gui_p.c</ProxyFileName>
     </Midl>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.6.1\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -114,7 +114,7 @@
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <Culture>0x0409</Culture>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.6.1\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>libminizip.lib;libtinyxml.lib;libzlib.lib;libdumper.lib;ws2_32.lib;Psapi.lib;WinInet.lib;%(AdditionalDependencies)</AdditionalDependencies>

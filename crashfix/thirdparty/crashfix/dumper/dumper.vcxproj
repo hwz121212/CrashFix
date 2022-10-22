@@ -61,7 +61,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.6.1\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_WIN64;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -83,7 +83,7 @@
       <TargetEnvironment>X64</TargetEnvironment>
     </Midl>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.6.1\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>

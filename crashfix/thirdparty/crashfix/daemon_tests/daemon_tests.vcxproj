@@ -62,7 +62,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\crashfix\libtest;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5;$(SolutionDir)thirdparty\minizip-1.1;$(SolutionDir)thirdparty\zlib-1.2.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\crashfix\libtest;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\crashfix\libtest;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5;$(SolutionDir)thirdparty\minizip-1.1;$(SolutionDir)thirdparty\zlib-1.2.12;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\crashfix\libdumper;$(SolutionDir)thirdparty\crashfix\libtest;$(SolutionDir)thirdparty\WTL10_10320;$(SolutionDir)thirdparty\tinyxml-2.5.5\include;$(SolutionDir)thirdparty\minizip-1.1\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
